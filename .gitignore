@@ -1,0 +1,52 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Dependency directories (remove the comment below if you want to ignore them)
+# vendor/
+
+# Object files, archives, etc.
+*.o
+*.a
+*.obj
+*.lib
+
+# Output of the go coverage tool
+*.cover
+
+# Profile outputs
+*.out
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+
+# Node.js dependencies
+node_modules/
+
+# Golang specific
+bin/
+pkg/
+
+# Compiled files and folders
+/dist
+
+# Output of the Go coverage tool, specifically when used with LiteIDE
+*.out
+
+# JetBrains IDEs (IntelliJ)
+.idea/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Mac OS X specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
