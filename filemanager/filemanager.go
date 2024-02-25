@@ -55,8 +55,8 @@ func (fm FileManager) WriteResult(data any) error {
 	return nil
 }
 
-func New(inputPath, outputPath string) *FileManager {
-	return &FileManager{
+func New(inputPath, outputPath string) FileManager {
+	return FileManager{
 		InputFilePath:  inputPath,
 		OutputFilePath: outputPath,
 	}
